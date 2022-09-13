@@ -1,0 +1,62 @@
+body{
+
+    --dark-mod-background-color:#1F2128;
+    --text-main-color:#ffffff;
+    --dark-mode-text-color-links:#A044FF;
+    --input-background-color:#EDEDED;
+    --checkbox-border-color:#41444B;
+
+
+    position: relative;
+    color: var(--text-main-color);
+    direction: rtl;
+    background: var(--dark-mod-background-color);
+    background-image: url("/grad_img/grediant-dark-mode.png");
+    background-repeat: no-repeat;
+    background-position: 0px 250px;
+
+}
+
+body.light{
+
+
+    --dark-mod-background-color:#ffffff;
+    --text-main-color:#1F2128;
+    --dark-mode-text-color-links:#A044FF;
+    --input-background-color:#EDEDED;
+    --checkbox-border-color:#41444B;
+
+
+
+    position: relative;
+    color: var(--text-main-color);
+    direction: rtl;
+    background: var(--dark-mod-background-color);
+    background-image: url("/grad_img/grediant-light-mode.png");
+    background-repeat: no-repeat;
+    background-position: 0px 250px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-mode-text-color-links);
+}
+
+input{
+    height: 56px;
+    font-family: IRANSansXFaNum-Light;
+
+}
+
+
+button{
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(180deg, #6A3093 0%, #A044FF 100%);
+    border:hidden;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: IRANSansXFaNum-Medium;
+    font-size: 16px
+}
+

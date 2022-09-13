@@ -1,0 +1,32 @@
+#switch_mode{
+
+    -webkit-appearance: none;
+    position: relative;
+    width: 79px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    background-color: var(--text-main-color);
+    background-size: 24px;
+    /*background-color: var(--text-main-color);*/
+    background-repeat: no-repeat;
+    margin-right: 7em;
+    margin-top: 3em;
+
+}
+#switch_mode::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--dark-mode-text-color-links);
+    border-radius: 50px;
+}
+#switch_mode:checked::before{
+    transform: translate(100%);
+}
+#switch_mode:checked{
+    background-color: darkgray;
+}
